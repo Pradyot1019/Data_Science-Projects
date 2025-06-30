@@ -1,0 +1,11 @@
+This Python script performs data cleaning on the StudentsPerformance.csv dataset by executing the following steps:
+
+1. Handles missing values using:
+  a) Median imputation for numeric columns
+  b) Mode imputation for categorical columns
+  
+2. Removes exact duplicates to prevent redundancy.
+3. Detects and prints outliers for each numeric column using the IQR (Interquartile Range) method.
+4. Removes outlier rows from the dataset to improve data quality.
+
+This cleaning process prepares the data for reliable analysis or machine learning workflows.
