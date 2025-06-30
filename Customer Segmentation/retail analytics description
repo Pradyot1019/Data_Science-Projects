@@ -1,0 +1,12 @@
+This project applies K-Means clustering to segment customers based on transactional and economic features from a retail dataset. The dataset includes variables such as temperature, fuel price, markdown discounts, CPI, and unemployment rate.
+
+Key steps included:
+
+1. Handling missing values using median imputation.
+2. Removing duplicates and outliers to ensure clean data.
+3. Standardizing features for uniform clustering.
+4. Determining the optimal number of clusters using the elbow method.
+5. Evaluating cluster quality with a silhouette score (~0.55).
+6. Visualizing customer groups using scatter plots on scaled features.
+
+These customer segments can help businesses personalize marketing, optimize pricing strategies, and boost customer satisfaction.
