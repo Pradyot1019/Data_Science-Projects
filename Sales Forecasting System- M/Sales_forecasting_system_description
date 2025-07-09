@@ -1,0 +1,12 @@
+This project presents a Sales Forecasting System that uses both classical and deep learning approaches to predict future sales trends based on historical transaction data. 
+
+The dataset, consisting of daily sales from April 2019, was cleaned, aggregated, and analyzed to visualize patterns and seasonality. 
+
+An ARIMA model was implemented to generate a 7-day sales forecast, providing a statistically grounded baseline. 
+
+To complement this, an LSTM (Long Short-Term Memory) neural network was trained on scaled time-series data using a sliding window approach, offering a more flexible and adaptive forecasting method. 
+
+Both models were evaluated using MAPE and RMSE metrics to assess their accuracy. 
+
+This dual-model approach highlights the practical application of machine learning and time-series analysis in inventory and revenue planning for businesses.
+
